@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NET SYARIAH</string>
+    <string name="field_em">Email</string>
+    <string name="field_pw">Password</string>
+    <string name="btn_Login">Login</string>
+    <string name="btn_Register">Register</string>
+    <string name="hello">Selamat Datang di Bank Net Syariah</string>
+    <string name="register">Halo this is register page</string>
+</resources>
