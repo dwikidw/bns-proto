@@ -46,9 +46,9 @@ data class UserLogin (
     )
 data class UserInfoLogin (
     @SerializedName("responseCode") val responseCode: String?,
-    @SerializedName("responseMessage") val responseMessage: String?
+    @SerializedName("responseMessage") val responseMessage: String?,
+    @SerializedName("sessionId") val sessionId: String?
     )
-
 
 data class UserInfoBalance (
     @SerializedName("responseCode") val responseCode: String?,
@@ -57,4 +57,4 @@ data class UserInfoBalance (
     @SerializedName("accountNo") val accountNo: String?,
     @SerializedName("accountCurrency") val accountCurrency: String?,
     @SerializedName("accountBalance") val accountBalance: String?
-        )
+    )

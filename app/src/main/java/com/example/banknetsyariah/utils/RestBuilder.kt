@@ -9,6 +9,7 @@ object ServiceBuilder {
 
     private val retrofit = Retrofit.Builder()
         .baseUrl("http://10.121.5.30:9090/") // change this IP for testing by your actual machine IP
+//        .baseUrl("http://10.121.5.152:9090/") // stephen change this IP for testing by your actual machine IP
         .addConverterFactory(GsonConverterFactory.create())
         .client(client)
         .build()
